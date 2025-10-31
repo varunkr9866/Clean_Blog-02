@@ -17,7 +17,6 @@ app.get('/',(req,res) =>{
     // res.sendFile(path.resolve(__dirname,'pages/index.html'))
     res.render('index')
 
-
 });
 
 app.get('/about',(req,res) =>{
@@ -34,5 +33,5 @@ app.get('/content',(req,res) =>{
 app.get('/post',(req,res) =>{
     // res.sendFile(path.resolve(__dirname,'pages/post.html'))
     res.render('post')
-
+    
 });
